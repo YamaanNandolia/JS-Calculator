@@ -1,3 +1,6 @@
+/*
+main styling: Centering all elements to the screen
+*/
 body{
     margin: 0;
     display: flex;
@@ -6,7 +9,9 @@ body{
     height: 100vh;
     background-color: hsl(0, 0%, 95%);
 }
-
+/*
+main styling: hidden overflow is very important if the computation is long
+*/
 #calculator{
     font-family: Arial, sans-serif;
     background-color: black;
@@ -14,7 +19,9 @@ body{
     max-width: 500px;
     overflow: hidden;
 }
-
+/*
+main styling: colors and font
+*/
 #display{
     width: 100%;
     padding: 20px;
@@ -24,14 +31,18 @@ body{
     background-color: hsl(0, 0%, 20%);
     color: white;
 }
-
+/*
+main styling: grid styling for the keys with spacing
+*/
 #keys{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     padding: 25px;
 }
-
+/*
+main styling: cursor pointer and cursor hover
+*/
 button{
     width: 100px;
     height: 100px;
